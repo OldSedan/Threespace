@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1531771204 source:c:\users\graham\desktop\projects\threespace\source\main.cpp
+	"iostream"
+	"threespace.h"
+
+1531771190 c:\users\graham\desktop\projects\threespace\source\threespace.h
+	<iostream>
+
