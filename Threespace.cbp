@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -44,6 +46,8 @@
 		</Linker>
 		<Unit filename="Source/main.cpp" />
 		<Unit filename="Source/threespace.h" />
+		<Unit filename="include/graphics.h" />
+		<Unit filename="src/graphics.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
